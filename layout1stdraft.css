@@ -1,4 +1,4 @@
-    @charset "utf-8";
+@charset "utf-8";
 
     /* IT3212 Intro to Web Design
         Name: Kiara Fauxbel
@@ -92,7 +92,7 @@ h1 {
     color: rgb(94, 182, 254);
     font-family: "Cormorant Upright", Georgia, sans-serif;
     font-size: 40px;
-    margin: 50px, 50px, 50px, 10px;
+    margin: 50px 50px 50px 10px;
     padding: 15px;
     border: 3px solid black;
     
