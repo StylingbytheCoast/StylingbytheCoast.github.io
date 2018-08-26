@@ -1,0 +1,146 @@
+    @charset "utf-8";
+
+    /* IT3212 Intro to Web Design
+        Name: Kiara Fauxbel
+        Date: 08/24/18
+        Filename: layout1stdraft.css
+        First attempt at creating css style-sheet for course project website
+    */
+
+/* HEADER Styles & Layout */
+body > header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 60%;
+	overflow: hidden;
+}
+
+body > header {
+    height: 100%;
+    width: 100%;
+}
+
+/* Main Layout (HTML, BACKGROUND, BODY) */
+body {
+    margin: 30px;
+    padding: 25px 30px;
+}
+
+article {
+    margin: 30px 50px 50px 30px;
+    padding: 20px;
+
+}
+
+article#services_list {
+    text-align: center;
+}
+
+
+/* IMAGE MARGINS */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+/* Main Styles (HTML, BACKGROUND, BODY) */
+html {
+    background-color: wheat;
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Cormorant', Georgia, sans-serif;
+    font-size: 20px;
+
+}
+
+article {
+    border-color: wheat;
+    border-style: solid;
+    border-width: thick;
+}
+
+
+    /* Body Links */
+    a:link {
+    color: rgb(94, 182, 254);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    a:visited {
+    color: navy;    
+    text-decoration: none;
+}
+
+    a:hover, a:active {
+    color: rgb(132,121,104);
+    text-decoration: none;
+}
+
+
+/* HEADERS */
+h1 {
+    color: rgb(94, 182, 254);
+    font-family: "Cormorant Upright", Georgia, sans-serif;
+    font-size: 40px;
+    margin: 50px, 50px, 50px, 10px;
+    padding: 15px;
+    border: 3px solid black;
+    
+    
+}
+
+/* Navigation Styles/LAYOUT */
+
+nav > ul {
+    color: black;
+    margin: 0px 0px 50px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    
+    }
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+nav > ul > li > a:visited {
+    color: black;
+}
+
+nav > ul > li > a:hover, a:active {
+    color: rgb(132,121,104);
+    text-decoration: underline;
+}
+
+
+
+
+/* Footer Layout */
+footer {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+
+body > footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+    /* Logo_Link adjustment */
+body > footer #logo_link {
+    text-align: left;
+    font-size: 12px;
+}
