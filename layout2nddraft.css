@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+    /* IT3212 Intro to Web Design
+        Name: Kiara Fauxbel
+        Date: 08/31/18
+        Filename: layout2nddraft.css
+        2nd draft, unit 3 adjustments
+    */
+
+* {
+	box-sizing: border-box;
+}
+
+/* HEADER Styles & Layout */
+body > header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 60%;
+	overflow: hidden;
+}
+
+body > header {
+    height: 100%;
+    width: 100%;
+}
+
+/* Main Layout (HTML, BACKGROUND, BODY) */
+body {
+    margin-left: auto;
+	margin-right: auto;
+	margin: 5%;
+    padding: 25px 30px;
+}
+
+article {
+    margin: 3%;
+    padding: 20px;
+}
+
+
+/* IMAGE MARGINS */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+/* Main Styles (HTML, BACKGROUND, BODY) */
+html {
+    background-color: wheat;
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Cormorant', Georgia, sans-serif;
+    font-size: 20px;
+}
+
+article {
+    border-color: wheat;
+    border-style: solid;
+    border-width: thick;
+}
+
+    /* Body Links */
+    a:link {
+    color: rgb(94, 182, 254);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    a:visited {
+    color: navy;    
+    text-decoration: none;
+}
+
+    a:hover, a:active {
+    color: rgb(132,121,104);
+    text-decoration: none;
+}
+
+
+/* HEADERS */
+h1 {
+    color: rgb(94, 182, 254);
+    font-family: "Cormorant Upright", Georgia, sans-serif;
+    font-size: 45px;
+    margin: 5% 20% 5% 20%; 
+	padding: 2%;
+    border: 3px solid black;
+	text-align: center;
+	overflow: hidden;
+}
+
+h2 {
+	color: rgb(94, 182, 254);
+	font-family: "Cormorant Upright", Georgia, sans-serif;
+	font-size: 30px; 
+	margin: 5% 0% 5% 0%;
+    padding: 2%;
+    border: 3px solid black;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* Navigation Styles/LAYOUT */
+
+nav > ul {
+    color: black;
+    margin: 0px 0px 50px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    }
+
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+nav > ul > li > a:visited {
+    color: black;
+}
+
+nav > ul > li > a:hover, a:active {
+    color: rgb(132,121,104);
+    text-decoration: underline;
+}
+
+/* INDEX PAGE specific styles/layout */
+
+#reviews {
+	float: left;
+	width: 45%;
+	padding: inherit;
+	padding: 5%
+}
+
+#reviews {
+	font-size: .75em;
+}
+
+#reviews::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#whereweare {
+	float: right;
+	width: 43%;
+}
+
+#reviews blockquote::before {
+	content: open-quote;
+	color: rgb(83, 173, 254);
+	font-size: 175%;
+}
+
+#reviews blockquote::after {
+	content: close-quote;
+	color: rgb(83, 173, 254);
+	font-size: 175%;
+}
+
+/* ABOUT US PAGE SPECIFIC STYLES/Layout*/
+
+table.q_a {
+	border: 3px double;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+table.q_a {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	float: center;
+	table-layout: auto;
+	width: 92%;
+	margin: 50px 30px 50px 30px;
+}
+
+table.q_a th, table.q_a td {
+	border-style: hidden;
+	border: 1px solid black;
+	padding: 3%;
+}
+
+
+table.q_a tbody blockquote::before {
+	content: open-quote;
+	color: rgb(83, 173, 254);
+	font-size: 175%;
+}
+
+table.q_a tbody blockquote::after {
+	content: close-quote;
+	color: rgb(83, 173, 254);
+	font-size: 175%;
+}
+
+table.q_a thead {
+	font-size: 150%;
+	font-family: "Cormorant Upright", Georgia, sans-serif;
+	background-color: rgba(244, 217, 170, 0.75);
+}
+
+table.q_a thead tr {
+	height: 100px;
+}
+
+table.q_a tbody th {
+	background-color: rgba(244, 217, 170, .50);
+	font-size: 125%; 
+	padding: 20px; 
+}
+
+
+/* SERVICES PAGE SPECIFIC STYLES/Layout */
+
+#services_page {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+}
+
+#services_h1 {
+	text-align: center;
+	object-position: top;
+	margin: 5%;
+	margin-bottom: -5%;
+}
+
+#services_list {
+	width: 600%;
+	margin-right: 10px;
+	align-self: center;
+	font-size: 30px;
+}
+
+#services_summary {
+	width: 600%;
+	margin-left: 10px;
+	overflow: hidden;
+	text-indent: 5%;
+}
+
+#services_summary::first-letter {
+	font-size: 40px;
+}
+
+/* CONTACT PAGE styles/layout */
+
+#contact_rows {
+	text-align: center;
+}
+
+
+
+
+/* Footer Layout */
+footer {
+    margin-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	clear: left;
+}
+
+/* Footer Styles */
+
+body > footer {
+    text-align: center;
+    font-size: 18px;
+	width: 100%;
+	clear: both;
+	padding: inherit; 
+}
+
+    /* Logo_Link adjustment */
+body > footer #logo_link {
+	padding-left: -20%;
+    text-align: left;
+    font-size: 12px;
+}

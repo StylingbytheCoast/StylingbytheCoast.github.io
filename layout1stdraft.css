@@ -34,7 +34,16 @@ article {
 }
 
 article#services_list {
+	clear: left;
+	float: left;
+	width: 50%
     text-align: center;
+}
+
+article#services_summary {
+	clear: right;
+	float: right;
+	width: 50%;
 }
 
 
@@ -67,6 +76,8 @@ article {
     border-style: solid;
     border-width: thick;
 }
+
+
 
 
     /* Body Links */
