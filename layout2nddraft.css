@@ -181,7 +181,6 @@ table.q_a {
 table.q_a {
 	overflow-x: scroll;
 	overflow-y: hidden;
-	float: center;
 	table-layout: auto;
 	width: 92%;
 	margin: 50px 30px 50px 30px;
@@ -285,7 +284,7 @@ body > footer {
 
     /* Logo_Link adjustment */
 body > footer #logo_link {
-	padding-left: -20%;
+	padding-left: 0%;
     text-align: left;
     font-size: 12px;
 }
