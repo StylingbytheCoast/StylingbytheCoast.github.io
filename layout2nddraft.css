@@ -44,7 +44,7 @@ article {
 }
 
 
-/* IMAGE MARGINS/styling */
+/* Image/Media MARGINS/styling */
 
 .center {
     display: block;
@@ -58,7 +58,10 @@ img:hover {
 	box-shadow: 0 0 3px 1px rgba(94, 182, 254, .85) !important;
 }
 
-
+video {
+	width: 100%;
+	height: auto;
+}
 
 /* Main Styles (HTML, BACKGROUND, BODY) */
 html {
@@ -269,6 +272,7 @@ table.q_a tbody th {
 #services_summary::first-letter {
 	font-size: 40px;
 }
+
 
 /* CONTACT PAGE styles/layout */
 
