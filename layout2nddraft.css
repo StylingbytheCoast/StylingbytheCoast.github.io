@@ -278,10 +278,46 @@ table.q_a tbody th {
 
 #contact_rows {
 	text-align: center;
+	float: left;
+	width: 50%;
 }
 
+#contact_rows > article {
+	overflow-wrap: break-word;
+}
 
+#contact_rows::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
+#contact_form_column {
+	float: right;
+	width: 50%;
+	padding: inherit; 
+}
+
+#contact_form_column > article {
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+input {
+	width: 100%;
+	padding: 1.5%;
+	margin: inherit;
+}
+
+input[type='submit'] {
+	font-size: 1.2em;	
+}
+
+textarea{
+	margin-top: 5%; 
+	height: 100px; 
+	width: 95%; 
+}
 
 /* Footer Layout */
 footer {

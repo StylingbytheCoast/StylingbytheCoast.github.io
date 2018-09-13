@@ -44,7 +44,57 @@
         123 Hydrangea Way<br />
 			Nantucket, MA 0000</address></article>
     </div>
+	
+	<div id="contact_form_column">
+		<article>
+		<form id="contact_form" action="response_page.php” method=”post">
+			
+			<fieldset id="request">
+			<legend>Contact Form</legend>
+				
+				<label for="name">First Name:</label>
+				<input name="firstName" id="name" type="text" placeholder="Enter your first name ..." required /><br />
+				
+				<label for="l_name">Last Name:</label>
+				<input name="lastName" id="l_name" type="text" placeholder="Enter your last name ..." required /><br />
+				
+				<label for="phone">Phone Number:</label>
+				<input name="phoneNumber" id="phone"
+				type="tel" placeholder="(XXX)XXX-XXXX" required><br />
+				
+				<label for="email">Email Address:</label>
+				<input name="emailAddress" id="email" type="email" placeholder="example@example.com"><br /><br />
+				
+				<label>Preferred Method of Contact:</label><br />
+					<label for="fPhone">Phone</label>
+					<input name="formContact" id="fPhone" type="radio" checked />
+					<label for="fEmail">Email</label>
+					<input name="formContact" id="fEmail" type="radio" /><br /><br />
+			
+				<label for="contactBox">Please tell us a bit about what you are looking for, or ask us a question:</label><br />
+				<textarea name="inputBox" id="contactBox"></textarea><br /><br />
+				
+				<label for="hearAbout">Where did you hear about us?</label>
+				<select name="hearAnswer" id="hearAbout">
+				<option value="answer1">Search Engine</option>
+				<option value="answer2">Blog</option>
+				<option value="answer3">Recommendation</option>
+				<option value="answer4">Magazine/Advertisement</option>
+				</select><br /><br /> 
+				
+				<div id="formButtons">
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Reset this form" />
+				</div>
+				
+			</fieldset>
+			
+			</form>
+		</article>
+	</div>
     </section>
+	
+	
     
     <!--Footer-->
     <footer>
